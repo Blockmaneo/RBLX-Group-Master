@@ -1,4 +1,3 @@
-# RBLX-Group-Master
 # RBLX Group Master Discord Bot
 
 A Discord bot for managing Roblox groups through slash commands. Easily promote members, view group information, and send group shouts.
