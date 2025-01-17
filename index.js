@@ -2,7 +2,6 @@ require('dotenv').config();
 const { Client, GatewayIntentBits, EmbedBuilder, SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
 const noblox = require('noblox.js');
 
-// Discord client setup with properly configured intents
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
@@ -12,7 +11,6 @@ const client = new Client({
     ]
 });
 
-// Rest of the code remains the same
 const config = {
     groupId: process.env.ROBLOX_GROUP_ID,
     allowedRoles: process.env.ALLOWED_DISCORD_ROLES?.split(',') || []
